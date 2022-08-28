@@ -1,0 +1,121 @@
+
+
+.post {
+  margin: auto;
+    max-width: 500px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    margin-bottom: 45px;
+  }
+  .post__image {
+    width: 100%;
+    object-fit: contain;
+    /* width: 100vw; */
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .post__text {
+    font-weight: normal;
+    padding: 10px;
+  }
+  
+  .post__header {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    justify-content: space-between;
+  }
+  
+  .post__avatar {
+    margin-right: 10px;
+  }
+  .post__commentBox input {
+    
+    flex: 1;
+    padding: 10px;
+    border: none;
+    width: 50vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px gray solid;
+  }
+  .post__comment__button {
+    flex: 0;
+    border: none;
+    color: #6082a3;
+    background-color: transparent;
+    border-top: 1px solid lightgray;
+    padding: 5px;
+  }
+  .comment__container{
+    height: 100vh;
+    margin-top: 70px;
+    background-color: rgb(245, 237, 227);
+  }
+  .post__commentBox {
+    display: flex;
+    justify-content: space-between;
+    width:95%;
+    margin-top: 10px;
+    position: fixed;
+    border: 1px gray solid;
+    bottom: 10px;
+    
+  }
+  
+ 
+  .post__comments {
+    
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .post__headerUser{
+    display: flex;
+  }
+  .post__headerUser h3{
+    /* display: flex; */
+    padding-top: 5px;
+  }
+  .comment__icon{
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .post__deleteComment{
+    
+    bottom: 0;
+    background-color: rgb(175, 209, 236);
+    cursor: pointer;
+  }
+  .post__deletePost{
+    background-color: rgb(175, 209, 236);
+    cursor: pointer;
+  }
+.likeComment{
+  display: flex;
+  /* width: 100px; */
+  /* margin-left: 30px; */
+}
+
+
+.back__btn{
+  
+  position: absolute;
+  top: 0;
+  
+}
+.like{
+  display: flex;
+  flex-direction: column;
+}
+.likeCount{
+  /* color: antiquewhite; */
+  margin-left: 4px;
+}
+  .usernameTime{
+    display: flex;
+    flex-direction: column;
+  }

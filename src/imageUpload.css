@@ -1,0 +1,28 @@
+
+.uplaod__post__div{
+  position:relative;
+  top: 200px;
+  background-color: rgb(255, 255, 255);
+}
+.imageUpload {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+  }
+  
+  .imageupload__progress {
+    width: 100%;
+   
+  }
+  .caption{
+    width: 80%;
+    height: 30px;
+  }
+  .choose__btn{
+    border-top-color: red;
+  }
+ 
